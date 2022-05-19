@@ -1,0 +1,15 @@
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\bin\Debug\netstandard2.0\Orion.deps.json
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\bin\Debug\netstandard2.0\Orion.dll
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\bin\Debug\netstandard2.0\ref\Orion.dll
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\bin\Debug\netstandard2.0\Orion.pdb
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.csproj.AssemblyReference.cache
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.AssemblyInfoInputs.cache
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.AssemblyInfo.cs
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.csproj.CoreCompileInputs.cache
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.dll
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\ref\Orion.dll
+C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion\obj\Debug\netstandard2.0\Orion.pdb
