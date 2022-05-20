@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FFImageLoading.Forms.Platform;
+using FFImageLoading.Svg.Forms;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,7 +22,8 @@ namespace Orion.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            CachedImageRenderer.Init();
+            var ignore = typeof(SvgCachedImage);
             LoadApplication(new Orion.App());
         }
     }

@@ -1,1 +1,1 @@
-C:\Users\Cerman Vilém\source\repos\Orion\Orion\Orion.UWP\Orion.UWP.csproj;x86
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Orion.UWP.csproj;x86

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cerman Vilém\\source\\repos\\Orion\\Orion\\Orion\\Orion.csproj": {}
+    "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion\\Orion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cerman Vilém\\source\\repos\\Orion\\Orion\\Orion\\Orion.csproj": {
+    "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion\\Orion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cerman Vilém\\source\\repos\\Orion\\Orion\\Orion\\Orion.csproj",
+        "projectUniqueName": "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion\\Orion.csproj",
         "projectName": "Orion",
-        "projectPath": "C:\\Users\\Cerman Vilém\\source\\repos\\Orion\\Orion\\Orion\\Orion.csproj",
+        "projectPath": "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion\\Orion.csproj",
         "packagesPath": "C:\\Users\\Cerman Vilém\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cerman Vilém\\source\\repos\\Orion\\Orion\\Orion\\obj\\",
+        "outputPath": "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -55,6 +55,14 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
+            },
+            "Xamarin.FFImageLoading.Svg": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
