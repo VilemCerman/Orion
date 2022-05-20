@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-20T07:30:46.410</Modified>
+      <Modified>2022-05-20T09:24:59.215</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Orion.UWP.exe">
       <PackagePath>entrypoint\Orion.UWP.exe</PackagePath>
-      <Modified>2022-05-20T07:30:44.738</Modified>
+      <Modified>2022-05-20T09:24:56.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -108,7 +108,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\bin\Debug\netstandard2.0\Orion.dll">
       <PackagePath>Orion.dll</PackagePath>
-      <Modified>2022-05-20T07:35:55.380</Modified>
+      <Modified>2022-05-20T10:25:09.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -269,6 +269,10 @@
       <PackagePath>graph.svg</PackagePath>
       <Modified>2022-05-20T07:23:14.836</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\login_btn.svg">
+      <PackagePath>login_btn.svg</PackagePath>
+      <Modified>2022-05-20T08:24:54.378</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\logo.svg">
       <PackagePath>logo.svg</PackagePath>
       <Modified>2022-05-19T11:09:49.099</Modified>
@@ -295,11 +299,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-20T07:30:44.632</Modified>
+      <Modified>2022-05-20T09:24:56.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-20T07:30:44.632</Modified>
+      <Modified>2022-05-20T09:24:56.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -315,11 +319,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-20T07:30:45.034</Modified>
+      <Modified>2022-05-20T09:24:57.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Core\Orion.UWP.exe">
       <PackagePath>Orion.UWP.exe</PackagePath>
-      <Modified>2022-05-20T07:30:46.403</Modified>
+      <Modified>2022-05-20T09:24:59.207</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -14,5 +14,12 @@ namespace Orion
         {
             InitializeComponent();
         }
+        
+        public void LoginBtn_Tapped(object sender, EventArgs e)
+        {
+            //Navigation.PushModalAsync(new DashboardPage());
+            
+            
+        }
     }
 }

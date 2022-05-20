@@ -15,15 +15,27 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
+    <ContentPage.Content>
 
-    <ScrollView>
-        
-    <StackLayout>
-        <ffSvg:SvgCachedImage Source="logo.svg"/>
-        <ffSvg:SvgCachedImage Source="graph.svg"/>
-        <ffSvg:SvgCachedImage Source="back_btn.svg"/>
-        <ffSvg:SvgCachedImage Source="switch_to_light.svg"/>
-    </StackLayout>
-    </ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="195"/>
+                <RowDefinition Height="126"/>
+                <RowDefinition Height="268"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
+            <ffSvg:SvgCachedImage Source="logo.svg" HeightRequest="126" Grid.Row="1"/>
+            
+            <ffSvg:SvgCachedImage Source="login_btn.svg" HeightRequest="126" Grid.Row="3">
+                <ffSvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LoginBtn_Tapped"/>
+                </ffSvg:SvgCachedImage.GestureRecognizers>
+            </ffSvg:SvgCachedImage>
+            <Label Text="You will be redirected to ADFS login" Grid.Row="4" HorizontalOptions="Center" TextColor="White" FontFamily="AmpleSoft"/>
+
+        </Grid>
+    </ContentPage.Content>
+    
 </ContentPage>

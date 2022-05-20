@@ -134,6 +134,7 @@
     <Content Include="back_btn.svg" />
     <Content Include="graf_linka.svg" />
     <Content Include="graph.svg" />
+    <Content Include="login_btn.svg" />
     <Content Include="logo.svg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="settings_btn.svg" />
@@ -166,6 +167,9 @@
       <Project>{5DAA0D48-0544-4208-907D-122678BE6C59}</Project>
       <Name>Orion</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AmpleSoftPro-Regular.ttf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
