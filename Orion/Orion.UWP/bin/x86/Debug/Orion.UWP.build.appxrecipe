@@ -199,32 +199,47 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\back_btn.svg">
-      <PackagePath>back_btn.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\back_btn.svg">
+      <PackagePath>Images\back_btn.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\graf_linka.svg">
-      <PackagePath>graf_linka.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Eclipse.svg">
+      <PackagePath>Images\Eclipse.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\graph.svg">
-      <PackagePath>graph.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\graf_linka.svg">
+      <PackagePath>Images\graf_linka.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\login_btn.svg">
-      <PackagePath>login_btn.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\graph.svg">
+      <PackagePath>Images\graph.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\logo.svg">
-      <PackagePath>logo.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\graph_btn.svg">
+      <PackagePath>Images\graph_btn.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\settings_btn.svg">
-      <PackagePath>settings_btn.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\home_btn.svg">
+      <PackagePath>Images\home_btn.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Switch_to_dark.svg">
-      <PackagePath>Switch_to_dark.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\login_btn.svg">
+      <PackagePath>Images\login_btn.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Switch_to_light.svg">
-      <PackagePath>Switch_to_light.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\logo.svg">
+      <PackagePath>Images\logo.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\settings_btn.svg">
+      <PackagePath>Images\settings_btn.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Switch_to_dark.svg">
+      <PackagePath>Images\Switch_to_dark.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Switch_to_light.svg">
+      <PackagePath>Images\Switch_to_light.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Fonts\AmpleSoftPro-Bold.ttf">
+      <PackagePath>Fonts\AmpleSoftPro-Bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Fonts\AmpleSoftPro-ExtraLight.ttf">
+      <PackagePath>Fonts\AmpleSoftPro-ExtraLight.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Orion.UWP.xr.xml">
       <PackagePath>Orion.UWP.xr.xml</PackagePath>

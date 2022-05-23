@@ -131,15 +131,18 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="back_btn.svg" />
-    <Content Include="graf_linka.svg" />
-    <Content Include="graph.svg" />
-    <Content Include="login_btn.svg" />
-    <Content Include="logo.svg" />
+    <Content Include="Images\back_btn.svg" />
+    <Content Include="Images\Eclipse.svg" />
+    <Content Include="Images\graf_linka.svg" />
+    <Content Include="Images\graph.svg" />
+    <Content Include="Images\graph_btn.svg" />
+    <Content Include="Images\home_btn.svg" />
+    <Content Include="Images\login_btn.svg" />
+    <Content Include="Images\logo.svg" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="settings_btn.svg" />
-    <Content Include="Switch_to_dark.svg" />
-    <Content Include="Switch_to_light.svg" />
+    <Content Include="Images\settings_btn.svg" />
+    <Content Include="Images\Switch_to_dark.svg" />
+    <Content Include="Images\Switch_to_light.svg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -169,7 +172,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AmpleSoftPro-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\AmpleSoftPro-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\AmpleSoftPro-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\AmpleSoftPro-ExtraLight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\AmpleSoftPro-Medium.ttf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

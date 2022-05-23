@@ -26,15 +26,21 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <ffSvg:SvgCachedImage Source="logo.svg" HeightRequest="126" Grid.Row="1"/>
-            
-            <ffSvg:SvgCachedImage Source="login_btn.svg" HeightRequest="126" Grid.Row="3">
+            <ffSvg:SvgCachedImage Source="Images\logo.svg" HeightRequest="126" Grid.Row="1"/>
+
+            <Frame BackgroundColor="#BF2072" CornerRadius="7" WidthRequest="268" HorizontalOptions="Center" Grid.Row="3" Padding="0">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LoginBtn_Tapped" />
+                </Frame.GestureRecognizers>
+                <Label Text="LOGIN" FontSize="31" FontFamily="AmpleSoftMedium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
+            </Frame>
+
+            <!--<ffSvg:SvgCachedImage Source="login_btn.svg" HeightRequest="126" Grid.Row="3">
                 <ffSvg:SvgCachedImage.GestureRecognizers>
                     <TapGestureRecognizer Tapped="LoginBtn_Tapped"/>
                 </ffSvg:SvgCachedImage.GestureRecognizers>
-            </ffSvg:SvgCachedImage>
-            <Label Text="You will be redirected to ADFS login" Grid.Row="4" HorizontalOptions="Center" TextColor="White" FontFamily="AmpleSoft"/>
-
+            </ffSvg:SvgCachedImage>-->
+            <Label Text="You will be redirected to ADFS login" Grid.Row="4" HorizontalOptions="Center" TextColor="White" FontFamily="AmpleSoftRegular"/>
         </Grid>
     </ContentPage.Content>
     
