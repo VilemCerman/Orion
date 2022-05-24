@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Orion.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="BackgroundColor">#EEF2FE</Color>
+            <Color x:Key="CardBackgroundColor">#FFFFFF</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

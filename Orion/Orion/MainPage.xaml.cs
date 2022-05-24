@@ -17,7 +17,6 @@ namespace Orion
         
         public void LoginBtn_Tapped(object sender, EventArgs e)
         {
-            Frame frame = (Frame)sender;
             Navigation.PushModalAsync(new DashBoardPage());            
         }
     }

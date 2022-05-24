@@ -140,3 +140,10 @@ C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\O
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\FFImageLoading.Svg.Platform.pdb
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\FFImageLoading.Svg.Forms.dll
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\FFImageLoading.Svg.Forms.pdb
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Microcharts.Uwp.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Microcharts.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Microcharts.Forms.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\SkiaSharp.Views.Interop.UWP.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\SkiaSharp.Views.UWP.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll

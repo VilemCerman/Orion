@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "EqfmX/d8wjI45YQboYxd6k/MDyxHv7qffsCoM4LSoAgWL5yO/5t60n3ir3W0i00GNH/0/nXHWfLq4bihZRudYg==",
+  "dgSpecHash": "grI8bLbRpmVo/zzhYVmmUNsVJXti2wF0OmQLY+nFLcPWxE/yUd0ydIorsv2t6vjw/vL/gIMD1m28arwEJlKcjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cerman Vilém\\OneDrive - DELTA - SŠIE, s.r.o\\Dokumenty\\Foxconn\\Orion\\Ori\\Orion\\Orion\\Orion.iOS\\Orion.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\skiasharp.views\\2.80.2\\skiasharp.views.2.80.2.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
     "C:\\Users\\Cerman Vilém\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Cerman Vilém\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Cerman Vilém\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\Cerman Vilém\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",

@@ -5,7 +5,6 @@
              xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
-
     <ContentPage.Background>
         <LinearGradientBrush EndPoint="0,1">
             <GradientStop Color="#26245F"
@@ -19,28 +18,28 @@
 
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="195"/>
-                <RowDefinition Height="126"/>
-                <RowDefinition Height="268"/>
-                <RowDefinition Height="60"/>
+                <RowDefinition Height="160"/>
+                <RowDefinition Height="105"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="190"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="20"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <ffSvg:SvgCachedImage Source="Images\logo.svg" HeightRequest="126" Grid.Row="1"/>
+            <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="1"/>
+            <ffSvg:SvgCachedImage Source="Images\Stars.svg" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="Center"/>
 
-            <Frame BackgroundColor="#BF2072" CornerRadius="7" WidthRequest="268" HorizontalOptions="Center" Grid.Row="3" Padding="0">
+            <Frame BackgroundColor="#BF2072" CornerRadius="7" WidthRequest="268" HorizontalOptions="Center" Grid.Row="4" Padding="0">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="LoginBtn_Tapped" />
                 </Frame.GestureRecognizers>
                 <Label Text="LOGIN" FontSize="31" FontFamily="AmpleSoftMedium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
             </Frame>
-
-            <!--<ffSvg:SvgCachedImage Source="login_btn.svg" HeightRequest="126" Grid.Row="3">
-                <ffSvg:SvgCachedImage.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="LoginBtn_Tapped"/>
-                </ffSvg:SvgCachedImage.GestureRecognizers>
-            </ffSvg:SvgCachedImage>-->
-            <Label Text="You will be redirected to ADFS login" Grid.Row="4" HorizontalOptions="Center" TextColor="White" FontFamily="AmpleSoftRegular"/>
+            
+            <Label Text="You will be redirected to ADFS login" Grid.Row="5" HorizontalOptions="Center" TextColor="White" FontFamily="AmpleSoftRegular"/>
+            <ffSvg:SvgCachedImage Source="Images\Clouds.svg" Grid.Row="6" VerticalOptions="End"/>
+            
         </Grid>
     </ContentPage.Content>
     

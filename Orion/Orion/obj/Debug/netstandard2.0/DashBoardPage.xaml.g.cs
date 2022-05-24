@@ -17,8 +17,28 @@ namespace Orion {
     public partial class DashBoardPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Orion.Card donutCard;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Orion.Card donutCard2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Grid sideMenuGrid;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Orion.SideMenuView sideMenu;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::FFImageLoading.Svg.Forms.SvgCachedImage sideMenuBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DashBoardPage));
+            donutCard = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard");
+            donutCard2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard2");
+            sideMenuGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "sideMenuGrid");
+            sideMenu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.SideMenuView>(this, "sideMenu");
+            sideMenuBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "sideMenuBtn");
         }
     }
 }

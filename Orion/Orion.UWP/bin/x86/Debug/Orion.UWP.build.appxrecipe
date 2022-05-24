@@ -28,20 +28,41 @@
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\bin\x86\Debug\Orion.UWP.exe">
       <PackagePath>entrypoint\Orion.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\microcharts\0.9.5.9\lib\uap10.0\Microcharts.Uwp.dll">
+      <PackagePath>Microcharts.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\microcharts\0.9.5.9\lib\uap10.0\Microcharts.dll">
+      <PackagePath>Microcharts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\microcharts.forms\0.9.5.9\lib\netstandard2.0\Microcharts.Forms.dll">
+      <PackagePath>Microcharts.Forms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libEGL.dll">
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x86\nativeassets\uap10.0\libEGL.dll">
       <PackagePath>libEGL.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libGLESv2.dll">
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x86\nativeassets\uap10.0\libGLESv2.dll">
       <PackagePath>libGLESv2.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libSkiaSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x86\nativeassets\uap10.0\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\1.68.0\lib\uap10.0\SkiaSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp\2.80.2\lib\uap10.0.16299\SkiaSharp.dll">
       <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp.views\2.80.2\runtimes\win10-x86\nativeassets\uap10.0\SkiaSharp.Views.Interop.UWP.dll">
+      <PackagePath>SkiaSharp.Views.Interop.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp.views\2.80.2\lib\uap10.0\SkiaSharp.Views.UWP.dll">
+      <PackagePath>SkiaSharp.Views.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\skiasharp.views.forms\2.80.2\lib\uap10.0\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -202,6 +223,12 @@
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\back_btn.svg">
       <PackagePath>Images\back_btn.svg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Clouds.svg">
+      <PackagePath>Images\Clouds.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Clouds_wide.svg">
+      <PackagePath>Images\Clouds_wide.svg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Eclipse.svg">
       <PackagePath>Images\Eclipse.svg</PackagePath>
     </AppxPackagedFile>
@@ -214,14 +241,29 @@
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\graph_btn.svg">
       <PackagePath>Images\graph_btn.svg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\graph_btn_inactive.svg">
+      <PackagePath>Images\graph_btn_inactive.svg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\home_btn.svg">
       <PackagePath>Images\home_btn.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\home_btn_inactive.svg">
+      <PackagePath>Images\home_btn_inactive.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\login_btn.svg">
       <PackagePath>Images\login_btn.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\logo.svg">
       <PackagePath>Images\logo.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\sideMenu_btn.svg">
+      <PackagePath>Images\sideMenu_btn.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Stars.svg">
+      <PackagePath>Images\Stars.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\Stars_wide.svg">
+      <PackagePath>Images\Stars_wide.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion.UWP\Images\settings_btn.svg">
       <PackagePath>Images\settings_btn.svg</PackagePath>

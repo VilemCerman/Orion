@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:local="clr-namespace:Orion"
+             x:Class="Orion.SideMenuView"
+            Background="#26245F"
+            Opacity="0.85">
+  <ContentView.Content>
+        <StackLayout Padding="0,172,0,0 ">
+            <ListView x:Name="sideListView" x:FieldModifier="public">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:FlyoutMenuItem}">
+                        <local:FlyoutMenuItem Title="LOGIN" IconSource="Images\login_btn.svg" TargetPage="{x:Type local:MainPage}"/>
+                        <local:FlyoutMenuItem Title="SETTINGS" IconSource="Images\settings_btn.svg" TargetPage="{x:Type local:DashBoardPage}"/>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="24,0,54,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <ffSvg:SvgCachedImage Source="{Binding IconSource}" WidthRequest="30" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <Label Text="{Binding Title}" FontSize="27" FontFamily="AmpleSoftMedium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Grid.Column="1" Margin="0,11,0,11"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

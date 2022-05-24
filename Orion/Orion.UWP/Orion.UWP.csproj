@@ -132,13 +132,20 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Images\back_btn.svg" />
+    <Content Include="Images\Clouds.svg" />
+    <Content Include="Images\Clouds_wide.svg" />
     <Content Include="Images\Eclipse.svg" />
     <Content Include="Images\graf_linka.svg" />
     <Content Include="Images\graph.svg" />
     <Content Include="Images\graph_btn.svg" />
+    <Content Include="Images\graph_btn_inactive.svg" />
     <Content Include="Images\home_btn.svg" />
+    <Content Include="Images\home_btn_inactive.svg" />
     <Content Include="Images\login_btn.svg" />
     <Content Include="Images\logo.svg" />
+    <Content Include="Images\sideMenu_btn.svg" />
+    <Content Include="Images\Stars.svg" />
+    <Content Include="Images\Stars_wide.svg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Images\settings_btn.svg" />
     <Content Include="Images\Switch_to_dark.svg" />
@@ -155,6 +162,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microcharts">
+      <Version>0.9.5.9</Version>
+    </PackageReference>
+    <PackageReference Include="Microcharts.Forms">
+      <Version>0.9.5.9</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading.Svg">
       <Version>2.4.11.982</Version>
     </PackageReference>

@@ -6,69 +6,87 @@
              xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:local="clr-namespace:Orion" xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              Background="#EEF2FE">
 
     <ContentPage.Content>
         <Grid>
-            
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition Height="0.065*"/>
-            </Grid.RowDefinitions>
-            <ScrollView Grid.Row="0">
+            <Grid>
 
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="0.12*"/>
-                        <RowDefinition Height="25"/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Rectangle Grid.Row="0" Grid.RowSpan="2">
-                        <Rectangle.Background>
-                            <LinearGradientBrush EndPoint="0,1">
-                                <GradientStop Color="#26245F"
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="0.065*"/>
+                </Grid.RowDefinitions>
+                <ScrollView Grid.Row="0">
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.12*"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Rectangle Grid.Row="0" Grid.RowSpan="2">
+                            <Rectangle.Background>
+                                <LinearGradientBrush EndPoint="0,1">
+                                    <GradientStop Color="#26245F"
                           Offset="0" />
-                                <GradientStop Color="#4A219B"
+                                    <GradientStop Color="#4A219B"
                           Offset="1" />
-                            </LinearGradientBrush>
+                                </LinearGradientBrush>
 
-                        </Rectangle.Background>
-                    </Rectangle>
+                            </Rectangle.Background>
+                        </Rectangle>
 
-                    <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="0" Margin="0,20,0,0" WidthRequest="145"/>
+                        <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="0" Margin="0,20,0,0" WidthRequest="145"/>
 
-                    <StackLayout Grid.Row="1" Grid.RowSpan="2" HeightRequest="600" Padding="30,0,30,0">
-                        <!--<Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />-->
+                        <StackLayout Grid.Row="1" Grid.RowSpan="2" HeightRequest="600" Padding="30,0,30,0">
 
-                        <Frame BackgroundColor="#FFFFFF" HeightRequest="415" WidthRequest="370" CornerRadius="15">
-                            
-                        </Frame>
-                        
-                    </StackLayout>
+                            <local:Card x:Name="donutCard" HorizontalOptions="Center"/>
+                            <local:Card x:Name="donutCard2" HorizontalOptions="Center"/>
 
+
+
+                        </StackLayout>
+
+                    </Grid>
+
+                </ScrollView>
+
+                <Grid Grid.Row="1" BackgroundColor="#ffffff">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="0,3*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="0,3*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <ffSvg:SvgCachedImage Source="Images\home_btn.svg" Grid.Column="0" HorizontalOptions="End" Margin="0,1,0,4"/>
+
+                    <ffSvg:SvgCachedImage Source="images\graph_btn.svg" Grid.Column="3" HorizontalOptions="Start" Margin="0,1,0,2">
+                        <ffSvg:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GraphBtn_Tapped"/>
+                        </ffSvg:SvgCachedImage.GestureRecognizers>
+                    </ffSvg:SvgCachedImage>
                 </Grid>
 
-            </ScrollView>
-
-            <Grid Grid.Row="1" BackgroundColor="#ffffff">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition  Width="0,3*"/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="0,3*"/>
-                </Grid.ColumnDefinitions>
-
-                <ffSvg:SvgCachedImage Source="Images\home_btn.svg" Grid.Column="0" HorizontalOptions="End" Margin="0,1,0,4"/>
-
-                <ffSvg:SvgCachedImage Source="images\graph_btn.svg" Grid.Column="3" HorizontalOptions="Start" Margin="0,1,0,2">
-                    <ffSvg:SvgCachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="GraphBtn_Tapped"/>
-                    </ffSvg:SvgCachedImage.GestureRecognizers>
-                </ffSvg:SvgCachedImage>
-
             </Grid>
+
+
+            <Grid x:Name="sideMenuGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="265"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <local:SideMenuView Grid.Column="0" x:Name="sideMenu"/>
+            </Grid>
+
+
+            <ffSvg:SvgCachedImage x:Name="sideMenuBtn" Source="Images\sideMenu_btn.svg" HeightRequest="24" HorizontalOptions="Start" VerticalOptions="Start" Margin="25,45,0,0">
+                <ffSvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SideMenuBtn_Tapped"/>
+                </ffSvg:SvgCachedImage.GestureRecognizers>
+            </ffSvg:SvgCachedImage>
 
         </Grid>
     </ContentPage.Content>

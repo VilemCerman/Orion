@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="Orion.Card">
+  <ContentView.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Frame BackgroundColor="{StaticResource CardBackgroundColor}" Margin="10" CornerRadius="15" HorizontalOptions="Center" Grid.Row="0" WidthRequest="300">
+
+                <!--<microcharts:ChartView x:Name="chartViewDonut" HeightRequest="300"/>-->
+                <microcharts:ChartView x:Name="cardChart" HeightRequest="200"/>
+
+            </Frame>
+            
+        </Grid>
+  </ContentView.Content>
+</ContentView>
