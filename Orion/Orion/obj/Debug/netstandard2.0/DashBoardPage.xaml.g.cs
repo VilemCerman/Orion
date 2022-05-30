@@ -17,28 +17,48 @@ namespace Orion {
     public partial class DashBoardPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Grid grid;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.StackLayout CardList;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Orion.Card donutCard;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Orion.Card donutCard2;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Grid sideMenuGrid;
+        private global::Orion.Card donutCard3;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Orion.SideMenuView sideMenu;
+        private global::Orion.Card donutCard4;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::FFImageLoading.Svg.Forms.SvgCachedImage sideMenuBtn;
+        private global::FFImageLoading.Svg.Forms.SvgCachedImage HomeBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::FFImageLoading.Svg.Forms.SvgCachedImage GraphBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button sideMenuBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Orion.SideMenuView sideMenuView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DashBoardPage));
+            grid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "grid");
+            CardList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "CardList");
             donutCard = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard");
             donutCard2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard2");
-            sideMenuGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "sideMenuGrid");
-            sideMenu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.SideMenuView>(this, "sideMenu");
-            sideMenuBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "sideMenuBtn");
+            donutCard3 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard3");
+            donutCard4 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.Card>(this, "donutCard4");
+            HomeBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "HomeBtn");
+            GraphBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "GraphBtn");
+            sideMenuBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "sideMenuBtn");
+            sideMenuView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Orion.SideMenuView>(this, "sideMenuView");
         }
     }
 }

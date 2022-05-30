@@ -27,7 +27,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="1"/>
+            <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="1" HorizontalOptions="Center" WidthRequest="320"/>
             <ffSvg:SvgCachedImage Source="Images\Stars.svg" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="Center"/>
 
             <Frame BackgroundColor="#BF2072" CornerRadius="7" WidthRequest="268" HorizontalOptions="Center" Grid.Row="4" Padding="0">

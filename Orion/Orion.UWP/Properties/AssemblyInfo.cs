@@ -30,4 +30,5 @@ using Xamarin.Forms;
 [assembly: ComVisible(false)]
 [assembly: ExportFont("AmpleSoftPro-Regular.ttf", Alias = "AmpleSoftRegular")]
 [assembly: ExportFont("AmpleSoftPro-Medium.ttf", Alias = "AmpleSoftMedium")]
+[assembly: ExportFont("AmpleSoftPro-Bold.ttf", Alias = "AmpleSoftBold")]
 

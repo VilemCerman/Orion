@@ -132,8 +132,13 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Images\back_btn.svg" />
+    <Content Include="Images\changeLogin_btn.svg" />
     <Content Include="Images\Clouds.svg" />
     <Content Include="Images\Clouds_wide.svg" />
+    <Content Include="Images\dark_graph_btn.svg" />
+    <Content Include="Images\dark_graph_btn_inactive.svg" />
+    <Content Include="Images\dark_home_btn.svg" />
+    <Content Include="Images\dark_home_btn_inactive.svg" />
     <Content Include="Images\Eclipse.svg" />
     <Content Include="Images\graf_linka.svg" />
     <Content Include="Images\graph.svg" />
@@ -188,7 +193,7 @@
     <EmbeddedResource Include="Fonts\AmpleSoftPro-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Fonts\AmpleSoftPro-Bold.ttf" />
+    <EmbeddedResource Include="Fonts\AmpleSoftPro-Bold.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fonts\AmpleSoftPro-ExtraLight.ttf" />

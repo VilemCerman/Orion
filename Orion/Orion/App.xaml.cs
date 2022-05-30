@@ -6,11 +6,17 @@ namespace Orion
 {
     public partial class App : Application
     {
+        public class Globals
+        {
+            public static string LastViewedGraph;
+            public static string[,] LastViewedData;
+        }
         public App()
         {
             InitializeComponent();
-
             MainPage = new MainPage();
+            Globals.LastViewedGraph = "";
+            Globals.LastViewedData = DataSource.Data1;
         }
 
         protected override void OnStart()

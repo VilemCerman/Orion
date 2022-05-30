@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#BA2174;}
-	.st1{fill:#362878;}
-</style>
-<path class="st0" d="M347.77,530.25h-114c-25.68,0-46.5-20.82-46.5-46.5v0c0-25.68,20.82-46.5,46.5-46.5h114
-	c25.68,0,46.5,20.82,46.5,46.5v0C394.27,509.43,373.45,530.25,347.77,530.25z"/>
-<ellipse class="st1" cx="348.5" cy="483.5" rx="45.5" ry="46.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="36.407" height="16.993" viewBox="0 0 36.407 16.993">
+  <g id="Dark_Mode_Off" data-name="Dark Mode Off" transform="translate(0.5 0.5)">
+    <g id="Group_41" data-name="Group 41">
+      <path id="Path_85" data-name="Path 85" d="M27.453,15.907H7.954A7.954,7.954,0,0,1,7.954,0h19.5a7.954,7.954,0,0,1,0,15.907" fill="#1c1e66" stroke="#fff" stroke-width="1"/>
+      <path id="Path_86" data-name="Path 86" d="M.5,8.454a7.87,7.87,0,0,0,7.783,7.954,7.87,7.87,0,0,0,7.783-7.954A7.87,7.87,0,0,0,8.283.5,7.87,7.87,0,0,0,.5,8.454" transform="translate(-0.414 -0.414)" fill="#a60d61" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
 </svg>

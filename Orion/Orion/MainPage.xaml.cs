@@ -17,7 +17,8 @@ namespace Orion
         
         public void LoginBtn_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new DashBoardPage());            
+            Navigation.PushModalAsync(new DashBoardPage());
+            ThemeManager.LoadTheme();
         }
     }
 }

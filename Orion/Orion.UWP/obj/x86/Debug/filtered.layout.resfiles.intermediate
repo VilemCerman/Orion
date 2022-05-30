@@ -29,11 +29,14 @@ Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
 Orion.UWP.xr.xml
-Fonts\AmpleSoftPro-Bold.ttf
 Fonts\AmpleSoftPro-ExtraLight.ttf
 Images\back_btn.svg
 Images\Clouds.svg
 Images\Clouds_wide.svg
+Images\dark_graph_btn.svg
+Images\dark_graph_btn_inactive.svg
+Images\dark_home_btn.svg
+Images\dark_home_btn_inactive.svg
 Images\Eclipse.svg
 Images\graf_linka.svg
 Images\graph.svg
@@ -41,6 +44,7 @@ Images\graph_btn.svg
 Images\graph_btn_inactive.svg
 Images\home_btn.svg
 Images\home_btn_inactive.svg
+Images\changeLogin_btn.svg
 Images\login_btn.svg
 Images\logo.svg
 Images\settings_btn.svg

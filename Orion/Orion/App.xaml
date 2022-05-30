@@ -3,9 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Orion.App">
     <Application.Resources>
-        <ResourceDictionary>
-            <Color x:Key="BackgroundColor">#EEF2FE</Color>
-            <Color x:Key="CardBackgroundColor">#FFFFFF</Color>
+        <ResourceDictionary Source="ThemeResources\LightTheme.xaml">
+
+            <Color x:Key="DarkBlue">#26245F</Color>
+            <Color x:Key="Blue">#4A219B</Color>
+            <Color x:Key="Violet">#7A29A3</Color>
+            <Color x:Key="Pink">#BF2072</Color>
+            <Color x:Key="DarkPink">#98004F</Color>
+            <Color x:Key="FrostWhite">#EEF2FE</Color>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

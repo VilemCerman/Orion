@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Orion.ThemeResources.DarkTheme">
+
+    <Color x:Key="BackgroundColor">#4A219B</Color>
+
+    <Color x:Key= "CardBackgroundColor">#26245F</Color>
+
+    <Color x:Key="TextColor">#FFFFFF</Color>
+
+</ResourceDictionary>

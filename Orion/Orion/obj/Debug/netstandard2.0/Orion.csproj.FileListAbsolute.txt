@@ -31,3 +31,7 @@ C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\O
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\DashBoardPage.xaml.g.cs
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\Card.xaml.g.cs
 C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\SideMenuView.xaml.g.cs
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\CardDetail.xaml.g.cs
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\SettingsView.xaml.g.cs
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\ThemeResources\DarkTheme.xaml.g.cs
+C:\Users\Cerman Vilém\OneDrive - DELTA - SŠIE, s.r.o\Dokumenty\Foxconn\Orion\Ori\Orion\Orion\Orion\obj\Debug\netstandard2.0\ThemeResources\LightTheme.xaml.g.cs

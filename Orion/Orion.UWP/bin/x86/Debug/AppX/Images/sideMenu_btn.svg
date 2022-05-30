@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<path id="Rectangle_6" class="st0" d="M93.1-1.7h893.8c51.4,0,93.1,41.7,93.1,93.1l0,0c0,51.4-41.7,93.1-93.1,93.1H93.1
-	C41.7,184.5,0,142.8,0,91.4l0,0C0,40,41.7-1.7,93.1-1.7z"/>
-<path id="Rectangle_7" class="st0" d="M93.1,370.7h893.8c51.4,0,93.1,41.7,93.1,93.1l0,0c0,51.4-41.7,93.1-93.1,93.1H93.1
-	C41.7,556.9,0,515.2,0,463.8l0,0C0,412.4,41.7,370.7,93.1,370.7z"/>
-<path id="Rectangle_8" class="st0" d="M93.1,743.1h893.8c51.4,0,93.1,41.7,93.1,93.1l0,0c0,51.4-41.7,93.1-93.1,93.1H93.1
-	C41.7,929.3,0,887.6,0,836.2l0,0C0,784.8,41.7,743.1,93.1,743.1z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27">
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(1 1)">
+    <g id="Rectangle_6" data-name="Rectangle 6" fill="#fff" stroke="#26245f" stroke-width="1">
+      <rect width="29" height="5" rx="2.5" stroke="none"/>
+      <rect x="-0.5" y="-0.5" width="30" height="6" rx="3" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(0 10)" fill="#fff" stroke="#26245f" stroke-width="1">
+      <rect width="29" height="5" rx="2.5" stroke="none"/>
+      <rect x="-0.5" y="-0.5" width="30" height="6" rx="3" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0 20)" fill="#fff" stroke="#26245f" stroke-width="1">
+      <rect width="29" height="5" rx="2.5" stroke="none"/>
+      <rect x="-0.5" y="-0.5" width="30" height="6" rx="3" fill="none"/>
+    </g>
+  </g>
 </svg>

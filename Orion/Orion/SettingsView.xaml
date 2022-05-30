@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+            IsVisible="false"
+             x:Name="SettingsCView"
+             x:FieldModifier="public" 
+             x:Class="Orion.SettingsView">
+    <ContentView.Content>
+        <Grid>
+
+            <Grid x:Name="SettingsContent" x:FieldModifier="public" Opacity="0" Background="#26245F">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ffSvg:SvgCachedImage Source="Images\back_btn.svg" HeightRequest="24" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="30,45,0,0" HorizontalOptions="Start" VerticalOptions="Start">
+                    <ffSvg:SvgCachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BackBtn_Tapped"/>
+                    </ffSvg:SvgCachedImage.GestureRecognizers>
+                </ffSvg:SvgCachedImage>
+                <ffSvg:SvgCachedImage Source="Images\logo.svg" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,20,0,0" WidthRequest="145" HorizontalOptions="Center" VerticalOptions="Start"/>
+                
+                
+                <Label Text="Dark Theme" FontFamily="AmpleSoftMedium" FontSize="15" Grid.Row="1" Grid.Column="0" TextColor="White" Margin="70,44,0,0"/>
+
+                <ffSvg:SvgCachedImage x:Name="ThemeSwitch" Source="Images\Switch_to_light.svg" HeightRequest="16" Grid.Row="1" Grid.Column="1" Margin="0,44,0,0" VerticalOptions="Start">
+                    <ffSvg:SvgCachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SwitchTheme_Tapped"/>
+                    </ffSvg:SvgCachedImage.GestureRecognizers>
+                </ffSvg:SvgCachedImage>
+            </Grid>
+
+
+            <Label x:Name="SettingsTxt" x:FieldModifier="public" Text="SETTINGS" FontSize="27" FontFamily="AmpleSoftMedium" HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" Margin="77,239,0,11"/>
+
+        </Grid>
+    </ContentView.Content>
+</ContentView>

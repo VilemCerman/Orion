@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st1{fill:#AD1161;}
-</style>
-<path class="st0" d="M168.4,387.43l223.83-172.89c6.08-4.7,7.21-13.44,2.51-19.53v0c-4.7-6.08-13.44-7.21-19.53-2.51L151.39,365.39
-	c-6.08,4.7-7.21,13.44-2.51,19.53h0C153.58,391,162.32,392.13,168.4,387.43z"/>
-<path class="st1" d="M151.41,389.3l234.66,154.77c6.81,4.49,15.98,2.61,20.48-4.2h0c4.49-6.81,2.61-15.98-4.2-20.48L167.68,364.62
-	c-6.81-4.49-15.98-2.61-20.48,4.2h0C142.71,375.64,144.59,384.8,151.41,389.3z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.433" height="27.649" viewBox="0 0 21.433 27.649">
+  <g id="Group_43" data-name="Group 43" transform="translate(1.635 1.502)">
+    <path id="Path_87" data-name="Path 87" d="M1.766,13.7l15.5-11.97A.964.964,0,0,0,16.085.2L.588,12.171A.964.964,0,1,0,1.766,13.7" transform="translate(-0.199 0)" fill="#fff" stroke="#fff" stroke-width="3"/>
+    <path id="Path_88" data-name="Path 88" d="M.46,173.458l16.247,10.716a1.023,1.023,0,0,0,1.127-1.709L1.587,171.749A1.023,1.023,0,1,0,.46,173.458" transform="translate(0 -159.7)" fill="#98004f" stroke="#98004f" stroke-width="3"/>
+  </g>
 </svg>
